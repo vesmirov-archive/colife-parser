@@ -1,0 +1,2 @@
+activate:
+	python colife.py

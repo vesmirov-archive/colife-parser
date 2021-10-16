@@ -1,0 +1,9 @@
+# environment
+.venv
+.env
+
+# dev
+.vscode
+
+# other
+*.html
