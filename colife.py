@@ -35,7 +35,9 @@ def main():
             if filtered_objects:
                 message = '\n'.join(filtered_objects)
                 bot.send_message(CHAT_ID, f'Новые поступления:\n{message}')
+            time.sleep(60)
         except Exception as e:
+            print(e)
             bot.send_message(CHAT_ID, str(e))
             break
 
