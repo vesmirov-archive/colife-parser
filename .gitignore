@@ -9,3 +9,4 @@ __pycache__/
 
 # other
 *.html
+stash.py

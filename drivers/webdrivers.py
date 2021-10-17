@@ -6,7 +6,7 @@ from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
 class Firefox(object):
     """
-    Ready Chrome driver 
+    Ready Firefox driver
     """
     def __init__(self, timeout=10, options=None):
         self.timeout = timeout
