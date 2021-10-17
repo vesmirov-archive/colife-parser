@@ -1,5 +1,3 @@
-from selenium import webdriver
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -11,10 +9,7 @@ COLIFE_REMONT_URL = 'https://colife.ru/remont'
 
 def main():
     browser = Firefox()
-    browser.get(COLIFE_ACTUAL_URL)
-
     # TODO
-
     browser.close()
 
 
